@@ -1,12 +1,12 @@
 import React from 'react';
-import { RiArrowRightLine } from "react-icons/ri";
+import { RiArrowRightLine,} from "react-icons/ri";
 
-const Card = () => {
+const Card = (props) => {
     return (
-            <div className="box btn-shadow">
-                <img src="" alt="" />
-                <h2>title</h2>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit  Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <div className="box btn-shadow card">
+                {props.icon}
+                <h2>{props.title}</h2>
+                <p> {props.content}</p>
                 <a href=""><RiArrowRightLine className='fe-icon' /></a>
             </div>
     );
