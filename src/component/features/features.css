@@ -1,0 +1,35 @@
+.features {
+    position: relative;
+    background-color: #f0f4f8;
+    padding-top: 30px;
+    top: -55px;
+}
+
+.features .box {
+    padding: 50px;
+}
+
+.features .box h2 {
+    margin: 20px 0 20px 0;
+}
+
+.features .box p {
+    word-spacing: 2px;
+    transition: 500ms;
+}
+
+.features .fe-icon {
+    font-size: 35px;
+    margin-top: 20px;
+    transition: 500ms;
+    opacity: 0;
+}
+
+.features .box:hover p{
+    color: #fff;
+}
+
+.features .box:hover .fe-icon {
+    color: #fff;
+    opacity: 1;
+}
