@@ -4,6 +4,7 @@ import Header from "./component/head/Header";
 import "./App.css";
 import Hero from './component/Hero/Hero';
 import Features from './component/features/Features';
+import Portfolio from './component/portfolio/Portfolio';
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
       <Header />
       <Hero />
       <Features />
+      <Portfolio />
     </>
   );
 };

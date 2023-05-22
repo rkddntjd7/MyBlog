@@ -1,7 +1,7 @@
 import React from 'react';
 import "./features.css";
 import Card from './Card';
-import data from "../../data/features-api";
+import data from "../../data/api";
 
 const Features = () => {
     return (
