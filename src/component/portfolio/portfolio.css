@@ -29,8 +29,10 @@
 }
 
 .portfolio .btn-shadow {
-    padding: 30px 50px;
+    margin-top: 100px;
+    padding: 20px 30px;
     border-radius: 5px;
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
     box-shadow: -2px -2px 5px rgba(255, 255, 255, 1),
         3px 3px 5px rgba(0, 0, 0, 0.1);
 }
@@ -78,10 +80,11 @@
 
 .portfolio .box:hover h2 {
     color: #fff;
+    transition: 0.5s;
 }
 
 .portfolio .box:hover {
-    background-color: #443d3d;
+    background: #000;
     transition: 0.5s;
 }
 
@@ -97,3 +100,69 @@
     color: #fff;
     transition: 0.5s;
 }
+
+/*** modal ***/
+.modal,
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 999;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    position: absolute;
+    top: 12%;
+    left: 8%;
+    line-height: 1.4;
+    background: #f0f3f5;
+    padding: 15px 30px;
+    min-width: 85%;
+    max-width: 60%;
+    z-index: 9999;
+    box-shadow:  4px 4px 8px rgba(0, 0, 0, 0.1),
+                 4px -4px  8px rgba(255, 255, 255, 1);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.modal-text {
+    padding: 0 100px 0 50px;
+}
+
+.modal-text h1 {
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+.modal-text p {
+    font-size: 17px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.modal-text button {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.modal-text button.close-modal {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    margin: 0;
+    padding: 0;
+    line-height: 55px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+} 
