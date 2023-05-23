@@ -17,7 +17,7 @@ const Header = () => {
                     <ul className={ mobile ? "nav-link-mobile" : "link f-flex uppercase"} onClick={()=>setMobile(false)}>
                         <li><a href="#features">features</a></li>
                         <li><a href="#portfolio">portfolio</a></li>
-                        <li><a href="#">메뉴3</a></li>
+                        <li><a href="#resume">resume</a></li>
                         <li><a href="#">메뉴4</a></li>
                         <li><a href="#">메뉴5</a></li>
                         <li><button className='home-btn'>PDF DOWN</button></li>
