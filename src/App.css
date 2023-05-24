@@ -125,6 +125,25 @@ input {
   margin-bottom: 20px;
 }
 
+.btn-shadow {
+  text-align: center;
+  margin-right: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: -2px -2px 5px rgba(255, 255, 255, 1),
+              3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn-shadow:hover {
+  box-shadow: -2px -2px 8px rgba(255, 255, 255, 1),
+              3px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-shadow:active {
+  box-shadow: inset -2px -2px  5px rgba(255, 255, 255, 1),
+              inset 3px 3px 5px rgba(0, 0, 0, 0.1);
+          }
+
 @media (max-width : 768px) {
   .grid {
     grid-template-columns: repeat(1, 1fr);

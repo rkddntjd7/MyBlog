@@ -18,7 +18,7 @@ const Header = () => {
                         <li><a href="#features">features</a></li>
                         <li><a href="#portfolio">portfolio</a></li>
                         <li><a href="#resume">resume</a></li>
-                        <li><a href="#">메뉴4</a></li>
+                        <li><a href="#">study group</a></li>
                         <li><a href="#">메뉴5</a></li>
                         <li><button className='home-btn'>PDF DOWN</button></li>
                     </ul>
