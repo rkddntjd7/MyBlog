@@ -7,6 +7,8 @@ import Features from './component/features/Features';
 import Portfolio from './component/portfolio/Portfolio';
 import Resume from './component/resume/Resume';
 import Group from './component/group/Group';
+import Footer from './component/footer/Footer';
+import Contact from './component/contact/Contact';
 
 
 const App = () => {
@@ -18,6 +20,8 @@ const App = () => {
       <Portfolio />
       <Resume />
       <Group />
+      <Contact />
+      <Footer />
     </>
   );
 };
